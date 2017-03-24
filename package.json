@@ -1,0 +1,34 @@
+{
+  "name": "AINJS",
+  "version": "1.0.0",
+  "description": "AINJS is an artificial intelligence constructed in NodeJS that will attempt to associate words with certain functions and will also write to its own code to teach itself.",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quaint-Studios/AINJS.git"
+  },
+  "keywords": [
+    "ai",
+    "artificial",
+    "intelligence",
+    "ainjs",
+    "discord",
+    "discordjs",
+    "bot",
+    "node",
+    "nodejs"
+  ],
+  "author": {
+	"name": "Kristopher Ali",
+	"email": "quaint.shanty@gmail.com",
+	"website": "http://quaintshanty.com"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Quaint-Studios/AINJS/issues"
+  },
+  "homepage": "https://github.com/Quaint-Studios/AINJS"
+}
