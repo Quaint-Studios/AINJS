@@ -22,13 +22,19 @@
     "nodejs"
   ],
   "author": {
-	"name": "Kristopher Ali",
-	"email": "quaint.shanty@gmail.com",
-	"website": "http://quaintshanty.com"
+    "name": "Kristopher Ali",
+    "email": "quaint.shanty@gmail.com",
+    "website": "http://quaintshanty.com"
   },
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/Quaint-Studios/AINJS/issues"
   },
-  "homepage": "https://github.com/Quaint-Studios/AINJS"
+  "homepage": "https://github.com/Quaint-Studios/AINJS",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "node-opus": "^0.2.4"
+  }
 }

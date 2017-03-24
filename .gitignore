@@ -1,5 +1,5 @@
 # Logs
-logs
+/logs
 *.log
 npm-debug.log*
 
@@ -24,10 +24,10 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+/build/Release
 
 # Dependency directories
-node_modules
+/node_modules
 jspm_packages
 
 # Optional npm cache directory
@@ -37,4 +37,4 @@ jspm_packages
 .node_repl_history
 
 # Storage Data
-storage
+/storage

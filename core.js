@@ -1,1 +1,1 @@
-const conn = require("./conn.js");
+const conn = require.main.require("./app/conn.js");

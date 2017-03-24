@@ -1,15 +1,26 @@
 // Core variables
 const fs = require("fs");
-const conn = require("/app/conn.js");
-const essentials = require("/app/utils/essentials.js");
+const essentials = require.main.require("./app/utils/essentials.js");
 
-function login() {
-	essentials.checkForFile('token.txt', function() {
-        fs.readFile('token.txt', 'utf8', function(err, contents) {
+// Authentication variables
+var token = "";
+
+/* *
+* * Logs into Discord.
+* * params: {
+* *     "client": "The client variable in the app/conn.js file."
+* * }
+* */
+function login(client) {
+	essentials.checkForFile('storage/auth/token.txt', token, function() {
+        fs.readFile('storage/auth/token.txt', 'utf8', function(err, contents) {
             if(contents.length > 0)
                 token = contents;
 
-            conn.client.login(token);
+            if(token)
+                client.login(token);
+            else
+                console.log("ERROR: LOGIN FAILED -- NO TOKEN PROVIDED");
         });
     });
 }

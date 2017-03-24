@@ -18,6 +18,10 @@ AINJS uses a number of open source projects to work properly:
 
   - [Node.js] - A JavaScript runtime built on Chrome's V8 JavaScript engine.
   - [Discord.js] - A powerful node.js module that allows you to interact with the Discord API very easily.
+  - [fs] - Node.js file i/o system.
+  - [mkdirp] - Like mkdir -p, but in node.js!
+  - [Node Opus] - This module implements native bindings to libopus.
+
 
 And of course AINJS itself is open source with a [public repository][ainjs]
  on GitHub.
@@ -29,7 +33,7 @@ AINJS requires [Node.js](https://nodejs.org/) v6+ to run.
 Install the dependencies and start the server.
 
 ```sh
-$ cd <folder-name>
+$ cd AINJS
 $ npm install -d
 $ node core
 ```
@@ -60,7 +64,13 @@ AINJS has a [Discord] channel. After you have joined, create a pull request. If 
 
    [version]: <https://github.com/QuaintShanty/AI-Bot-NodeJS/releases>
    [ainjs]: <https://github.com/QuaintShanty/AI-Bot-NodeJS>
+   
    [discord]: <https://discord.gg/r2erCCz>
-   [discord.js]: <https://discord.js.org>
+   
    [node.js]: <http://nodejs.org>
+   [discord.js]: <https://discord.js.org>
+   [fs]: <https://nodejs.org/api/fs.html>
+   [mkdirp]: <https://github.com/substack/node-mkdirp>
+   [node opus]: <https://www.npmjs.com/package/node-opus>
+   
    [gnu agplv3]: <https://github.com/QuaintShanty/AI-Bot-NodeJS/blob/master/LICENSE>
