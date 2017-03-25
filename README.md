@@ -20,7 +20,10 @@ AINJS uses a number of open source projects to work properly:
   - [Discord.js] - A powerful node.js module that allows you to interact with the Discord API very easily.
   - [fs] - Node.js file i/o system.
   - [mkdirp] - Like mkdir -p, but in node.js!
+  - [Natural] -  A general natural language facility for nodejs.
   - [Node Opus] - This module implements native bindings to libopus.
+  - [SQLite3] - It's SQLite3!
+  - [WordNet DB] - A package to install WordNet database files for Node.js modules.
 
 
 And of course AINJS itself is open source with a [public repository][ainjs]
@@ -71,6 +74,9 @@ AINJS has a [Discord] channel. After you have joined, create a pull request. If 
    [discord.js]: <https://discord.js.org>
    [fs]: <https://nodejs.org/api/fs.html>
    [mkdirp]: <https://github.com/substack/node-mkdirp>
+   [natural]: <https://www.npmjs.com/package/natural>
    [node opus]: <https://www.npmjs.com/package/node-opus>
+   [sqlite3]: <https://www.npmjs.com/package/sqlite3>
+   [wordnet db]: <https://www.npmjs.com/package/wordnet-db>
    
    [gnu agplv3]: <https://github.com/QuaintShanty/AI-Bot-NodeJS/blob/master/LICENSE>
