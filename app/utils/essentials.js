@@ -1,5 +1,5 @@
 // Essential variables
-const fs = require("fs");
+const fs = require('fs');
 const mkdirp = require('mkdirp');
 const path = require('path');
 
