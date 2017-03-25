@@ -65,8 +65,8 @@ AINJS has a [Discord] channel. After you have joined, create a pull request. If 
 
 **License:** [GNU AGPLv3]
 
-   [version]: <https://github.com/QuaintShanty/AI-Bot-NodeJS/releases>
-   [ainjs]: <https://github.com/QuaintShanty/AI-Bot-NodeJS>
+   [version]: <https://github.com/Quaint-Studios/AINJS/releases>
+   [ainjs]: <https://github.com/Quaint-Studios/AINJS>
    
    [discord]: <https://discord.gg/r2erCCz>
    
@@ -79,4 +79,4 @@ AINJS has a [Discord] channel. After you have joined, create a pull request. If 
    [sqlite3]: <https://www.npmjs.com/package/sqlite3>
    [wordnet db]: <https://www.npmjs.com/package/wordnet-db>
    
-   [gnu agplv3]: <https://github.com/QuaintShanty/AI-Bot-NodeJS/blob/master/LICENSE>
+   [gnu agplv3]: <https://github.com/Quaint-Studios/AINJS/blob/master/LICENSE>
