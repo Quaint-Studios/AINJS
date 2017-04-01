@@ -30,10 +30,11 @@ Array.prototype.seperate = function(seperator, start, end) {
 * * }
 * */
 String.prototype.toParams = function(string) {
+    let PARAM_REGEX = /[^\s"']+|"([^"]*)"|'([^']*)'/g;
 	let match = null;
 	let parts = [];
 
-	while (match = PARAM_REGEX.exec(command)){
+	while(match = PARAM_REGEX.exec(string)) {
 		parts.push(match[1] || match[2] || match[0]);
 	}
 	
